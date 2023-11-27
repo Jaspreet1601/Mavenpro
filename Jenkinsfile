@@ -6,7 +6,7 @@ pipeline{     agent any
     { 
         stage("checkout") 
         {             steps{ 
-                git branch: 'master', url: 'https://github.com/tanya20169/Maven.git' 
+                git branch: 'master', url: 'https://github.com/Jaspreet1601/Mavenpro.git' 
             } 
         } 
         stage("clean_01") 
